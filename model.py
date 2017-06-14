@@ -5,7 +5,7 @@ import string
 import csv
 
 
-class Model(object):
+class Word2VecModel(object):
     def __init__(self, corpus='leipzig.txt'):
         # self.filenames = self.corpus_manifest(corpus_dir)
         # self.texts = self.read_files_from_folder(self.filenames)
@@ -90,7 +90,7 @@ def main():
     # # w2v_model.wv.vocab now is the replacement for model.vocab
     # print(model.vocab)
 
-    model = Model()
+    model = Word2VecModel()
 
 if __name__ == '__main__':
     main()
